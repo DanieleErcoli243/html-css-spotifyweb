@@ -6,3 +6,41 @@
     box-sizing: border-box;
 }
 
+/* generici */
+
+#upper-container{
+    display: flex;
+}
+
+#sidebar{
+    width: 10%;
+    background-color: black;
+    height: calc(100vh - 70px);
+}
+
+.contents{
+    width: 90%;
+    background-color: rgb(28, 28, 46);
+    height: calc(100vh - 70px);
+}
+
+.contents-header{
+    min-height: 70px;
+    background-color: rgba(0, 0, 0, 0.688);
+    position: sticky;
+}
+
+.contents-set{
+    height: calc(100vh - 140px);
+    background-color: transparent;
+    overflow: auto;
+}
+
+footer{
+    background-color: rgb(82, 82, 82);
+    min-height: 70px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
