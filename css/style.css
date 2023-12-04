@@ -26,7 +26,7 @@
 
 .contents-header{
     min-height: 70px;
-    background-color: rgba(0, 0, 0, 0.688);
+    background-color: rgba(37, 37, 37, 0.312);
     position: sticky;
 }
 
@@ -34,6 +34,7 @@
     height: calc(100vh - 140px);
     background-color: transparent;
     overflow: auto;
+    color: white;
 }
 
 footer{
