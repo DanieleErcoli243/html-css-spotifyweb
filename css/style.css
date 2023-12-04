@@ -13,6 +13,10 @@
     display: flex;
 }
 
+a{
+    text-decoration: none;
+}
+
 #sidebar{
     width: 10%;
     background-color: black;
@@ -29,6 +33,7 @@
     min-height: 70px;
     background-color: rgba(37, 37, 37, 0.312);
     position: sticky;
+    ;
 }
 
 .contents-set{
@@ -79,5 +84,37 @@ i{
 
 /* header */
 
+.btn{
+    
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px 40px;
+    border-radius: 20px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
 
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+
+/* main */
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0 -10px;
+    justify-content: center;
+}    
+
+.menu a{
+    color: gray;
+}
+
+.menu li{
+    padding: 0 10px;
+}
 
