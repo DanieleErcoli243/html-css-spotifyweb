@@ -21,12 +21,14 @@ a{
     flex-basis: 50px;
     background-color: black;
     height: calc(100vh - 70px);
+    flex-shrink: 0;
 }
 
 .contents{
     flex-basis: calc(100% - 50px);
     background-color: rgb(28, 28, 46);
     height: calc(100vh - 70px);
+    flex-shrink: 0;
 }
 
 .contents-header{
