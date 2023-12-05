@@ -18,13 +18,13 @@ a{
 }
 
 #sidebar{
-    width: 10%;
+    flex-basis: 50px;
     background-color: black;
     height: calc(100vh - 70px);
 }
 
 .contents{
-    width: 90%;
+    flex-basis: calc(100% - 50px);
     background-color: rgb(28, 28, 46);
     height: calc(100vh - 70px);
 }
@@ -33,7 +33,7 @@ a{
     min-height: 70px;
     background-color: rgba(37, 37, 37, 0.312);
     position: sticky;
-    ;
+    
 }
 
 .contents-set{
