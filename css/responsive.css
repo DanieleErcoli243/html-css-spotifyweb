@@ -21,7 +21,7 @@
     }
 
     #sidebar{
-        flex-basis: 155px;
+        flex-basis: 170px;
     }
 
     .logo-large{
@@ -44,5 +44,9 @@
     
     .lower-nav{
         padding-top: 0;
+    }
+
+    .navbar .d-sm-flex{
+        flex-direction: column;
     }
 }
