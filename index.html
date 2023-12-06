@@ -18,79 +18,86 @@
         <main id="upper-container">
             <!-- contenitore della barra laterale e dei contenuti principali -->
             <div id="sidebar">
-                <!-- barra laterale con menù di navigazione e selezioni musicali -->
-                <div class="logo-container">
-                    <a href="#">
-                        <img id="logo" src="img/logo-small.svg" alt="logo di spotify">
-                    </a>
-                    <span class="app-name">Spotify</span>
-                </div>
-                
-                <nav class="navbar">
-                    <ul class="menu">
-                        <li>
-                            <a href="#">
-                                <img src="img/home.svg" alt="Home">
-                                <span class="home"><strong>Home</strong></span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="img/search.svg" alt="cerca, lente d'ingrandimento">
-                                <span class="search">Cerca</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="img/libreria.svg" alt="libreria">
-                                <span class="library">La tua libreria</span>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
+                <div class="upper-nav">
+                    <!-- barra laterale con menù di navigazione e selezioni musicali -->
+                    <div class="logo-container">
+                        <a href="#">
+                            <img id="logo" src="img/logo-small.svg" alt="logo di spotify">
+                        </a>
+                        <a href="#">
+                            <img id="logo-large" src="img/logo.svg" alt="logo spotify">
+                        </a>
+                    </div>
+                    
+                    <nav class="navbar">
+                        <ul class="menu">
+                            <li>
+                                <a href="#">
+                                    <img src="img/home.svg" alt="Home">
+                                    <span class="home"><strong>Home</strong></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/search.svg" alt="cerca, lente d'ingrandimento">
+                                    <span class="search">Cerca</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/libreria.svg" alt="libreria">
+                                    <span class="library">La tua libreria</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
 
-                <nav class="playlist">
-                    <h1><strong>PLAYLIST</strong></h1>
-                    <span>
-                        <i class="fa-solid fa-square-plus"></i>
-                        Crea Playlist
-                    </span>
-                    <ul class="p-list">
-                        <li>
-                            <span>Nome Playlist</span>
-                        </li>
-                        <li>
-                            <span>Nome Playlist</span>
-                        </li>
-                        <li>
-                            <span>Nome Playlist</span>
-                        </li>
-                        <li>
-                            <span>Nome Playlist</span>
-                        </li>
-                        <li>
-                            <span>Nome Playlist</span>
-                        </li>
-                        <li>
-                            <span>Nome Playlist</span>
-                        </li>
-                        <li>
-                            <span>Nome Playlist</span>
-                        </li>
-                    </ul>
-                </nav>
-                
-                <div class="user">
-                    <a href="#">
-                        <img class="arrow" src="img/download.svg" alt="freccia in giù, download">
-                        <span class="install">Installa app</span>
-                    </a>
-                    <a href="#">
-                        <img class="profile" src="img/profile.svg" alt="icona utente">
-                        <span class="user-name">John Doe</span>
-                    </a>
+                    <nav class="playlist">
+                        <h1><strong>PLAYLIST</strong></h1>
+                        <span>
+                            <i class="fa-solid fa-square-plus"></i>
+                            Crea Playlist
+                        </span>
+                        <ul class="p-list">
+                            <li>
+                                <span>Nome Playlist</span>
+                            </li>
+                            <li>
+                                <span>Nome Playlist</span>
+                            </li>
+                            <li>
+                                <span>Nome Playlist</span>
+                            </li>
+                            <li>
+                                <span>Nome Playlist</span>
+                            </li>
+                            <li>
+                                <span>Nome Playlist</span>
+                            </li>
+                            <li>
+                                <span>Nome Playlist</span>
+                            </li>
+                            <li>
+                                <span>Nome Playlist</span>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="lower-nav">
+                    <div class="user">
+                        <a href="#">
+                            <img class="arrow" src="img/download.svg" alt="freccia in giù, download">
+                            <span class="install">Installa app</span>
+                        </a>
+                        <hr>
+                        <a href="#">
+                            <img class="profile" src="img/profile.svg" alt="icona utente">
+                            <span class="user-name">John Doe</span>
+                        </a>
+                    </div>
                 </div>
             </div>
+
             <div class="contents">
                 <header class="contents-header">
                     <!-- pulsante per l'upgrade -->
@@ -227,7 +234,7 @@
                             <div class="popular-col">
                                 <div class="popular-card">
                                     <div class="record">
-                                        <img src="img/youg.jpeg" alt="Young & beautiful">
+                                        <img class="round-record" src="img/youg.jpeg" alt="Young & beautiful">
                                     </div>
                                     <div class="record-title">
                                         <h3>Lana Del Rey</h3>
@@ -237,7 +244,7 @@
                             <div class="popular-col">
                                 <div class="popular-card">
                                     <div class="record">
-                                        <img src="img/einaudi.jpeg" alt="Ludovico Einaudi">
+                                        <img class="round-record" src="img/einaudi.jpeg" alt="Ludovico Einaudi">
                                     </div>
                                     <div class="record-title">
                                         <h3>Ludovico Einaudi</h3>
