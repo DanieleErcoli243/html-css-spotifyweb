@@ -76,7 +76,13 @@ section h4{
 
 .upper-nav{
     flex-basis: 70%;
-   
+}
+
+.active-b::before{
+    content: "";
+    border: 2px solid greenyellow;
+    max-width: 25px;
+    margin: 0 auto ;
 }
 
 .lower-nav{
@@ -173,6 +179,13 @@ a.btn{
 .menu a{
     color: gray;
     font-weight: normal;
+}
+
+.active::after{
+    content: "";
+    border: 2px solid greenyellow;
+    max-width: 30px;
+    margin: 0 auto;
 }
 
 .recent-row{
