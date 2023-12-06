@@ -1,1 +1,48 @@
-@media screen and ()
+@media screen and (min-width: 639px){
+
+    .d-sm-none{
+        display: none;
+    }
+    
+    .d-sm-block{
+        display: block;
+    }
+    
+    .d-sm-inline{
+        display: inline;
+    }
+    
+    .d-sm-in-b{
+        display: inline-block;
+    }
+    
+    .d-sm-flex{
+        display: flex;
+    }
+
+    #sidebar{
+        flex-basis: 155px;
+    }
+
+    .logo-large{
+        max-width: 100%;
+        height: auto;
+    }
+
+
+
+    .active-b::before{
+        content: "";
+        border: 2px solid greenyellow;
+        display: inline-block;
+        height: 25px;
+    }
+
+    .user{
+        margin-top: 0;
+    }
+    
+    .lower-nav{
+        padding-top: 0;
+    }
+}
