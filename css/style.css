@@ -70,7 +70,23 @@ section h4{
     margin-top: 5px;
 }
 
+/* utili */
 
+.d-none{
+    display: none;
+}
+
+.d-block{
+    display: block;
+}
+
+.d-inline{
+    display: inline;
+}
+
+.d-in-b{
+    display: inline-block;
+}
 
 /* sidebar */
 
@@ -81,8 +97,10 @@ section h4{
 .active-b::before{
     content: "";
     border: 2px solid greenyellow;
-    max-width: 25px;
-    margin: 0 auto ;
+    display: inline-block;
+
+    height: 25px;
+   
 }
 
 .lower-nav{
@@ -100,24 +118,14 @@ section h4{
     margin-left: 5px;
 }
 
-#logo-large{
-    display: none;
-}
+
 
 .upper-nav img{
     width: 30px;
     height: 30px;
 }
 
-.app-name,
-.home,
-.search,
-.library,
-.playlist,
-.install,
-.user-name{
-    display: none;
-}
+
 
 .navbar{
     margin-top: 10px;
@@ -184,7 +192,8 @@ a.btn{
 .active::after{
     content: "";
     border: 2px solid greenyellow;
-    max-width: 30px;
+    display: block;
+    width: 30px;
     margin: 0 auto;
 }
 
