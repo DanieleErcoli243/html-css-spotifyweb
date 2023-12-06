@@ -67,9 +67,21 @@ h2{
 h3,
 h4{
     font-size: 12px;
+    margin-bottom: 5px;
 }
 
+
+
 /* sidebar */
+
+.upper-nav{
+    width: 70%;
+    
+}
+
+.lower-nav{
+    width: 30%;
+}
 
 .logo-container{
     text-align: center;
@@ -79,6 +91,11 @@ h4{
 #logo{
     width: 35px;
     height: 35px;
+    margin-left: 5px;
+}
+
+#logo-large{
+    display: none;
 }
 
 .app-name,
@@ -135,6 +152,8 @@ a.btn{
     margin-bottom: 20px;
 }
 
+
+
 .menu{
     display: flex;
     flex-wrap: wrap;
@@ -150,16 +169,22 @@ a.btn{
     font-weight: normal;
 }
 
-
-
 .recent-row{
     display: flex;
     flex-wrap: wrap;
     margin: 0 -5px;
 }
 
+[class$="-col"]{
+    flex-basis: 50%;
+}
+
 img{
     max-width: 230px;
+}
+
+.record-title h4{
+    color: rgb(101, 96, 96);
 }
 
 .recent-col{
@@ -192,6 +217,10 @@ img{
 .popular-row{
     display: flex;
     margin: 0 -5px;
+}
+
+.round-record{
+    border-radius: 50%;
 }
 
 .popular-col{
