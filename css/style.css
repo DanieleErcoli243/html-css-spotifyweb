@@ -29,7 +29,6 @@ a{
     background-color: rgb(47, 47, 50);
     height: calc(100vh - 70px);
     flex-shrink: 0;
-    
 }
 
 .contents-header{
@@ -68,6 +67,7 @@ h3,
 h4{
     font-size: 12px;
     margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 
@@ -75,12 +75,12 @@ h4{
 /* sidebar */
 
 .upper-nav{
-    width: 70%;
-    
+    flex-basis: 70%;
+   
 }
 
 .lower-nav{
-    width: 30%;
+    flex-basis: 30%;
 }
 
 .logo-container{
@@ -98,6 +98,11 @@ h4{
     display: none;
 }
 
+.upper-nav img{
+    width: 30px;
+    height: 30px;
+}
+
 .app-name,
 .home,
 .search,
@@ -110,7 +115,7 @@ h4{
 
 .navbar{
     margin-top: 10px;
-    padding-left: 15px;
+    
 }
 
 .arrow{
@@ -120,7 +125,7 @@ h4{
 
 .user{
     text-align: center;
-    margin-top: 410px;
+    
 }
 
 .profile{
