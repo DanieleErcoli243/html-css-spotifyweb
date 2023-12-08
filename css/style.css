@@ -55,7 +55,7 @@ footer{
     height: 70px;
     display: flex;
     flex-shrink: 0;
-    margin: 0 -5px;
+    /* margin: 0 -5px; */
 }
 
 
@@ -140,7 +140,7 @@ nav.playlist{
 ul.p-list{
     overflow: auto;
     height: 100px;
-    margin-bottom: 90px;
+    margin-bottom: 80px;
 }
 
 div.create{
@@ -149,8 +149,6 @@ div.create{
     align-items: center;
     gap: 5px;
 }
-
-
 
 .fa-square-plus{
     font-size: 40px;
@@ -186,11 +184,15 @@ nav > h2{
 
 .install{
     color: gray;
-    font-size: 12px;
+    font-size: 14px;
+    vertical-align: top;
 }
+
+
 
 .user-name{
     color: white;
+    vertical-align: super;
 }
 
 .user{
@@ -337,7 +339,7 @@ section img{
 /* footer */
 
 footer div{
-    padding: 0 10px;
+    padding: 0 5px;
 }
 
 .song{
@@ -449,10 +451,6 @@ i{
     flex-shrink: 0;
     align-items: center;
     color: white;
-}
-
-.parameters{
-    position: relative;
 }
 
 .p.bar{
