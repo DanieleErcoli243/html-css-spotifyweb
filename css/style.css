@@ -358,27 +358,34 @@ i{
 .progress-bar{
     padding: 0;
     gap: 5px;
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .bar,
 .second-bar{
     border: 4px solid gray;
     border-radius: 5px;
-    display: inline-block;
 }
 
-div.bar{
+
+
+.progress-bar .bar{
     width: 135px;
     position: relative;
 }
 
+
 .second-bar{
+    display: inline-block;
     width: 15%;
     border: 4px solid white;
     position: absolute;
-    top: 4px;
-    left: 45px;
+    right: 120px;
+    bottom: 0;
+    transform: translate(50%, 50%);
+    
 }
 
 .parameters{
@@ -401,9 +408,9 @@ div.bar{
 .p.second-bar{
     width: 20px;
     position: absolute;
-    top: 30px;
-    left: 85px;
-    
+    top: 1px;
+    left: 7px;
+    transform: translate(-50%, -50%);
 }
 
 /* hover */
