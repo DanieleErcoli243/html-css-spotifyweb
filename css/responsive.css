@@ -45,6 +45,8 @@
 
     .user{
         margin-top: 0;
+        text-align: left;
+        margin-left: 5px;
     }
     
     .lower-nav{
