@@ -138,8 +138,8 @@ nav.playlist{
 
 ul.p-list{
     overflow: auto;
-    height: 190px;
-    margin-bottom: 10px;
+    height: 100px;
+    margin-bottom: 90px;
 }
 
 div.create{
@@ -158,19 +158,13 @@ div.create{
 
 nav > h2{
     color: white;
-    font-size: 12px;
+    font-size: 14px;
 }
-
-
 
 .lower-nav{
     flex-basis: 30%;
     padding-top: 120px;
 }
-
-
-
-
 
 .navbar{
     margin: 0 0 10px 10px;
@@ -187,6 +181,7 @@ nav > h2{
 
 .user{
     text-align: center;
+    
 }
 
 .profile{
@@ -200,7 +195,6 @@ nav > h2{
 /* header */
 
 .btn{
-    
     background-color: transparent;
     border: 1px solid white;
     padding: 10px 40px;
