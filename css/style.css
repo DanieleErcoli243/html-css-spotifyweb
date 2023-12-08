@@ -100,6 +100,32 @@ section h4{
 
 /* sidebar */
 
+
+.logo-container{
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.upper-nav img{
+    max-width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.upper-nav span{
+    vertical-align: sub;
+    color: white;
+
+}
+
+.upper-nav .logo{
+    max-width: 100%;
+}
+
+.upper-nav .logo-large{
+    max-width: 100%;
+}
+
 .upper-nav{
     flex-basis: 70%;
     display: flex;
@@ -113,33 +139,16 @@ section h4{
     padding-top: 120px;
 }
 
-.logo-container{
-    text-align: center;
-    padding-top: 5px;
-}
-
-.upper-nav img{
-    width: 30px;
-    height: 30px;
-}
-.upper-nav .logo{
-    width: 35px;
-    height: 35px;
-    margin-left: 5px;
-}
-
-.upper-nav .logo-large{
-    width: 120px;
-    height: 25;
-    margin-left: 5px;
-}
 
 
 
 
 .navbar{
-    margin-top: 10px;
-    
+    margin: 10px 0 5px 10px;
+}
+
+.navbar li{
+    line-height: 34px;
 }
 
 .arrow{
