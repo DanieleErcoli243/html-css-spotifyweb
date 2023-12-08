@@ -98,11 +98,12 @@ section h4{
     display: flex;
 }
 
+
+
 /* sidebar */
 
 
 .logo-container{
-    text-align: center;
     padding: 5px 10px;
 }
 
@@ -174,6 +175,8 @@ nav > h2{
     line-height: 34px;
 }
 
+
+
 .arrow{
     width: 20px;
     height: 20px;
@@ -181,13 +184,18 @@ nav > h2{
     margin-bottom: 10px;
 }
 
+.install{
+    color: gray;
+    font-size: 12px;
+}
 
+.user-name{
+    color: white;
+}
 
 .user{
     text-align: center;
 }
-
-
 
 .profile{
     width: 35px;
