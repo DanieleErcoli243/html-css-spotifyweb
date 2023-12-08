@@ -53,13 +53,13 @@ a{
 footer{
     background-color: rgb(82, 82, 82);
     height: 70px;
-    bottom: 0;
-    right: 0;
-    left: 0;
     display: flex;
     flex-shrink: 0;
-    gap: 10px;
+    margin: 0 -10px;
 }
+
+
+
 
 h2{
     margin-bottom: 10px;
@@ -115,7 +115,6 @@ section h4{
 .upper-nav span{
     vertical-align: sub;
     color: white;
-
 }
 
 .upper-nav .logo{
@@ -132,6 +131,35 @@ section h4{
     flex-direction: column;
 }
 
+nav.playlist{
+    margin-left: 10px;
+}
+
+ul.p-list{
+    overflow: auto;
+    height: 190px;
+    margin-bottom: 10px;
+}
+
+div.create{
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+
+.fa-square-plus{
+    font-size: 40px;
+    color: white;
+}
+
+nav > h2{
+    color: white;
+    font-size: 16px;
+}
+
 
 
 .lower-nav{
@@ -144,7 +172,7 @@ section h4{
 
 
 .navbar{
-    margin: 10px 0 5px 10px;
+    margin: 0 0 10px 10px;
 }
 
 .navbar li{
@@ -300,8 +328,13 @@ section img{
 
 /* footer */
 
+footer div{
+    padding: 0 10px;
+}
+
 .song{
     display: flex;
+    flex-basis: 25%;
     flex-shrink: 0;
     gap: 10px;
 }
@@ -326,7 +359,7 @@ section img{
 }
 
 .player{
-    flex-basis: 40%;
+    flex-basis: 50%;
 }
 
 .record-icons{
@@ -403,6 +436,7 @@ i{
 
 .parameters{
     display: flex;
+    flex-basis: 25%;
     gap: 10px;
     flex-shrink: 0;
     align-items: center;
