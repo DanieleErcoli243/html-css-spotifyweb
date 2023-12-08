@@ -24,7 +24,12 @@
         flex-basis: 170px;
     }
 
-    .logo-large{
+    .logo-container{
+        height: 70px;
+        padding: 10px 20px 10px 10px;
+    }
+
+    .logo-large.d-sm-block{
         max-width: 100%;
         height: auto;
     }
