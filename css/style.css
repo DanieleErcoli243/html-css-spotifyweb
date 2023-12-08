@@ -232,6 +232,10 @@ a.btn{
     cursor: pointer;
 }
 
+.play.rounded{
+    border-radius: 50%;
+}
+
 .record{
     position: relative;
     
@@ -408,13 +412,12 @@ i{
 .p.second-bar{
     width: 20px;
     position: absolute;
-    top: 1px;
+    top: 0px;
     left: 7px;
     transform: translate(-50%, -50%);
 }
 
 /* hover */
-
 
 
 .record:hover .play{
