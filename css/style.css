@@ -171,10 +171,6 @@ nav > h2{
     line-height: 34px;
 }
 
-
-
-
-
 .arrow{
     width: 20px;
     height: 20px;
@@ -289,7 +285,7 @@ a.btn{
 }
 
 section img{
-    max-width: 230px;
+    max-width: 100%;
 }
 
 .record-title h4{
