@@ -56,3 +56,26 @@
 
     
 }
+
+@media screen and (min-width: 768px){
+    [class$="-col"]{
+        flex-basis: 25%;
+    }
+
+    .record-icons{
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .parameters{
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (min-width: 1180px){
+    [class$="-col"]{
+        flex-basis: calc(100% / 6);
+    }
+
+    
+}
