@@ -30,7 +30,6 @@ a{
     flex-grow: 1;
     background-color: rgb(47, 47, 50);
     height: calc(100vh - 70px);
-    flex-shrink: 0;
 }
 
 .contents-header{
@@ -55,7 +54,6 @@ footer{
     height: 70px;
     display: flex;
     flex-shrink: 0;
-    /* margin: 0 -5px; */
 }
 
 
@@ -172,6 +170,8 @@ nav > h2{
 .navbar li{
     line-height: 34px;
 }
+
+
 
 
 
