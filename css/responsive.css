@@ -38,9 +38,10 @@
 
     .active-b::before{
         content: "";
-        border: 2px solid greenyellow;
+        border-right: 4px solid greenyellow;
         display: inline-block;
-        height: 25px;
+        height: 34px;
+        vertical-align: middle;
     }
 
     .user{
