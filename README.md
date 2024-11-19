@@ -1,3 +1,9 @@
+Spotify Web
+This our second complex app. 
+We had to create a web-app layout, keeping the content inside the viewport. It was supposed to be responsive, so I used media queries in a css file. There were effects to create on hover, behaviour to reproduce while shortening the browser.
+I had some troubles with a section that exploded fourty minutes before the deadline. I had written a flex-shrink: 0; where it was not necessary and it took me a while to find the mistake. Of course I used the inspector and fixed it.
+
+
 Ciao Ragazzi,
 esercizio di oggi: Spotify
 nome repo: html-css-spotifyweb
